@@ -1,0 +1,25 @@
+[package]
+name = "romsidian-sync"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Synchronization engine and SyncBackend abstraction for ROMSIDIAN"
+
+[dependencies]
+romsidian-core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+
+[target.'cfg(windows)'.dependencies]
+git2 = { version = "0.20", default-features = false, features = ["https", "vendored-libgit2"] }
+keyring = { version = "3.6", features = ["windows-native"] }
+
+[target.'cfg(not(windows))'.dependencies]
+git2 = { version = "0.20", default-features = false, features = ["vendored-libgit2"] }
+keyring = { version = "3.6" }
+
+[target.'cfg(target_os = "android")'.dependencies]
+ureq = { version = "2.10", default-features = false, features = ["tls", "json"] }
+base64 = "0.22"

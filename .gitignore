@@ -1,0 +1,26 @@
+# Artefactos de compilación y dependencias
+node_modules/
+target/
+dist/
+build/
+
+# Material externo pesado y binarios
+FUENTES/
+*.exe
+*.apk
+*.idsig
+*.mp4
+
+# Claves y certificados privados
+*.keystore
+*.jks
+
+# Configuración local de bóveda y entorno
+.romsidian/
+.env
+.env.*
+!.env.example
+
+# Archivos de sistema e IDE
+.DS_Store
+Thumbs.db

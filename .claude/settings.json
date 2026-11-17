@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(node_modules/**)",
+      "Read(target/**)",
+      "Read(.git/**)",
+      "Read(dist/**)",
+      "Read(build/**)",
+      "Read(FUENTES/**)",
+      "Read(*.lock)",
+      "Read(pnpm-lock.yaml)",
+      "Read(package-lock.json)",
+      "Read(Cargo.lock)",
+      "Read(*.pdf)",
+      "Read(*.xlsx)",
+      "Read(*.xlsm)",
+      "Read(*.xls)",
+      "Read(*.docx)",
+      "Read(*.doc)",
+      "Read(*.pptx)",
+      "Read(*.ppt)",
+      "Read(*.exe)",
+      "Read(*.mp4)",
+      "Read(.env*)"
+    ]
+  }
+}

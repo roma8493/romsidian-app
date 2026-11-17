@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "id": "grp-fb89d000",
+      "type": "group",
+      "x": 1180,
+      "y": 440,
+      "width": 440,
+      "height": 300,
+      "color": "5",
+      "label": "Nuevo grupo",
+      "backgroundStyle": "cover"
+    },
+    {
+      "id": "grp-46f1c329",
+      "type": "group",
+      "x": 460,
+      "y": 400,
+      "width": 440,
+      "height": 300,
+      "color": "5",
+      "label": "Nuevo grupo",
+      "backgroundStyle": "cover"
+    },
+    {
+      "id": "txt-952e75d0",
+      "type": "file",
+      "x": -460,
+      "y": -240,
+      "width": 280,
+      "height": 160,
+      "color": "3",
+      "file": "Texto MD.md",
+      "mediaKind": "note"
+    },
+    {
+      "id": "note-fe1d687c",
+      "type": "file",
+      "x": 180,
+      "y": -240,
+      "width": 280,
+      "height": 170,
+      "color": "6",
+      "file": "daily/2026-11-14.md",
+      "mediaKind": "note"
+    },
+    {
+      "id": "media-7be4337e",
+      "type": "file",
+      "x": -140,
+      "y": -20,
+      "width": 280,
+      "height": 170,
+      "color": "3",
+      "file": "assets/recurso.png",
+      "mediaKind": "media"
+    },
+    {
+      "id": "note-38169fdf",
+      "type": "file",
+      "x": -140,
+      "y": -240,
+      "width": 280,
+      "height": 170,
+      "color": "6",
+      "file": "daily/2026-11-14.md",
+      "mediaKind": "note"
+    },
+    {
+      "id": "txt-e8794122",
+      "type": "text",
+      "x": -140,
+      "y": 180,
+      "width": 280,
+      "height": 160,
+      "color": "4",
+      "text": "# Nueva idea\n\nEscribe aquí en **Markdown**."
+    },
+    {
+      "id": "media-3e369ff9",
+      "type": "file",
+      "x": 180,
+      "y": -20,
+      "width": 280,
+      "height": 170,
+      "color": "3",
+      "file": "assets/recurso.png",
+      "mediaKind": "media"
+    },
+    {
+      "id": "web-ca248cc9",
+      "type": "link",
+      "x": -460,
+      "y": 180,
+      "width": 280,
+      "height": 130,
+      "color": "2",
+      "url": "https://jsoncanvas.org/"
+    },
+    {
+      "id": "txt-76daf3be",
+      "type": "text",
+      "x": -460,
+      "y": -20,
+      "width": 280,
+      "height": 160,
+      "color": "4",
+      "text": "# Nueva idea\n\nEscribe aquí en **Markdown**."
+    },
+    {
+      "id": "txt-0c2f0844",
+      "type": "text",
+      "x": 480,
+      "y": 200,
+      "width": 280,
+      "height": 160,
+      "color": "4",
+      "text": "# Nueva idea\n\nEscribe aquí en **Markdown**."
+    },
+    {
+      "id": "note-75f1e299",
+      "type": "file",
+      "x": 480,
+      "y": 200,
+      "width": 280,
+      "height": 170,
+      "color": "6",
+      "file": "daily/2026-11-14.md",
+      "mediaKind": "note"
+    },
+    {
+      "id": "media-a4275982",
+      "type": "file",
+      "x": 480,
+      "y": 400,
+      "width": 280,
+      "height": 170,
+      "color": "3",
+      "file": "assets/recurso.png",
+      "mediaKind": "media"
+    },
+    {
+      "id": "web-6b128346",
+      "type": "link",
+      "x": 540,
+      "y": 480,
+      "width": 280,
+      "height": 130,
+      "color": "2",
+      "url": "https://jsoncanvas.org/"
+    }
+  ],
+  "edges": []
+}

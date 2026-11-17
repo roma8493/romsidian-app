@@ -1,0 +1,441 @@
+Manual de Operación y Funcionalidades Integrales de Obsidian: Ecosistema PKM y Plataforma Enterprise 2.2
+
+1. Visión General y Fundamentos Operativos de Obsidian
+
+1.1 Dualidad del Ecosistema: Gestión Personal del Conocimiento (PKM) y Business Service Intelligence (Enterprise 2.2)
+
+El ecosistema de software agrupado bajo la denominación Obsidian se articula en dos dimensiones operativas diferenciadas pero estratégicamente complementarias dentro de la arquitectura de la información moderna. Por un lado, se erige como un entorno modular de Gestión Personal del Conocimiento (Personal Knowledge Management - PKM), centrado en la estructuración de notas atómicas mediante archivos de texto plano locales en formato Markdown (.md) y lienzos bidimensionales interactivos en JSON Canvas (.canvas), posibilitando la emergencia de redes complejas de conocimiento interconectado sin dependencia de formatos propietarios. Por otro lado, la vertiente corporativa Obsidian Enterprise 2.2 (en sus variantes Professional y Enterprise) constituye una plataforma de Business Service Intelligence & Analytics diseñada para la definición, modelado y cálculo automatizado de indicadores de nivel de servicio en tiempo real e históricos. Esta vertiente evalúa la disponibilidad, la capacidad, la carga operacional en plataformas de Service Desk y el cumplimiento de acuerdos de nivel de servicio (Service Level Agreements - SLAs), integrando métricas heterogéneas de infraestructura bajo marcos de gobernanza internacional como ITIL, ISO 20000 e IT4IT. La comprensión analítica de ambas dimensiones resulta indispensable para las organizaciones contemporáneas: mientras que el modelo PKM optimiza el procesamiento intelectual individual, la trazabilidad conceptual y la velocidad de toma de decisiones del especialista, la plataforma Enterprise sintetiza la topología técnica en indicadores de impacto directo en el negocio.
+
+Pilar Operativo	Gestión Personal del Conocimiento (PKM)	Business Service Intelligence & Analytics (Enterprise 2.2)
+Arquitectura de Datos	Archivos locales de texto plano (.md) y estándar abierto JSON Canvas (.canvas).	Appliances virtuales GNU/Linux (openSUSE) y servidores corporativos RHEL 7.x.
+Propósito Principal	Estructuración atómica de conocimiento, redes de notas bidireccionales y cartografía de ideas.	Cálculo automático de indicadores de servicio (Disponibilidad, Capacidad, Service Desk, SLAs).
+Alineación y Estándares	Organización libre, etiquetado jerárquico y metadatos dinámicos (YAML Frontmatter / DQL).	Procesos de gestión ITIL / ISO 20000 y flujos de entrega de valor de TI bajo el estándar IT4IT.
+Alcance e Infraestructura	Usuarios individuales, investigadores, arquitectos de sistemas y analistas de conocimiento.	Despliegues distribuidos corporativos, Directores de TI (CIOs) y Centros de Operaciones de Red (NOC).
+
+Esta doble naturaleza exige abordar el ecosistema desde sus fundamentos operacionales locales antes de escalar hacia arquitecturas analíticas distribuidas de nivel corporativo.
+
+1.2 Primeros Pasos en el Ecosistema PKM: Instalación, Bóvedas e Interconexión de Notas
+
+Establecer una bóveda (vault) estructurada rigurosamente desde la fase de despliegue inicial es el factor crítico para garantizar la escalabilidad, la integridad referencial y la velocidad de recuperación de información en un entorno de conocimiento personal a largo plazo.
+
+Ficha de Fase	Secuencia de Incorporación	Objetivo Operacional de Arquitectura	Directorios y Estructura Recomendada
+01	Descarga e Instalación	Desplegar el ejecutable nativo en el sistema operativo local para procesamiento zero-latency.	Binarios locales del sistema (Windows, macOS, Linux, iOS, Android).
+02	Inicialización de Bóveda	Establecer la carpeta raíz del sistema de archivos donde se alojará el repositorio de conocimiento.	/ (Raíz local), /templates (Plantillas), /attachments (Adjuntos), /daily (Registros diarios).
+03	Creación de Nota Inicial	Instanciar documentos de texto plano estructurados mediante encabezados y sintaxis Markdown.	Ficheros Markdown .md codificados estrictamente en UTF-8.
+04	Enlazado Bidireccional	Articular hipervínculos internos ([[Nota]]) para construir el grafo contextual interconectado.	Red relacional visible en la vista de Grafo Global y de Grafo Local.
+05	Ingesta de Fuentes Extensas	Importar repositorios de documentos previos manteniendo la integridad del formato local.	Ingesta masiva o progresiva hacia subcarpetas de clasificación temática.
+06	Replicación Multiplataforma	Configurar servicios de sincronización continua con cifrado de extremo a extremo (end-to-end).	Sincronización local o cifrada con Obsidian Sync hacia dispositivos móviles.
+
+Una vez consolidado el flujo de trabajo de información en el ámbito local, las organizaciones con arquitecturas complejas de tecnología pueden transicionar hacia las ediciones comerciales diseñadas para el análisis masivo de infraestructura.
+
+1.3 Ediciones de Obsidian Enterprise 2.2: Core, Professional y Enterprise
+
+El licenciamiento de Obsidian Enterprise 2.2 adopta una estructura modular que permite adaptar y escalar el motor de procesamiento analítico en función del volumen de eventos de infraestructura y la complejidad topológica de los servicios corporativos.
+
+* Obsidian Core: Edición open source del núcleo de procesamiento. Está orientada exclusivamente a desarrolladores, auditores de código e investigadores académicos que requieren extender el motor básico o integrar librerías personalizadas mediante pipelines de programación.
+* Obsidian Professional: Edición comercial estandarizada destinada a entornos corporativos de mediana y gran escala. Incorpora la totalidad de los módulos de integración con fuentes de datos (sondas de monitorización, herramientas de Service Desk y aplicaciones de negocio) para el cálculo unificado de niveles de servicio.
+* Obsidian Enterprise: Edición avanzada diseñada específicamente para desplegarse sobre arquitecturas distribuidas de alta disponibilidad. Su elemento tecnológico diferenciador es la integración de un motor de cálculo paralelo, el cual distribuye eficientemente los algoritmos de agregación de métricas entre múltiples cores de procesamiento, reduciendo drásticamente la latencia en la generación de SLAs para grandes volúmenes de datos.
+
+La implementación exitosa de estas ediciones comerciales exige un análisis detallado de los requisitos técnicos de despliegue sobre la infraestructura virtual de la organización.
+
+2. Despliegue Técnico y Configuración de Obsidian Enterprise 2.2
+
+2.1 Opciones de Despliegue e Instalación en Entornos Virtuales (openSUSE y RHEL)
+
+Para garantizar la mínima latencia en la ingesta de métricas y optimizar el rendimiento del motor analítico, las directrices de arquitectura dictaminan que los appliances virtuales de Obsidian Enterprise 2.2 deben desplegarse adyacentes a las fuentes primarias de información dentro del Centro de Procesamiento de Datos (CPD) o en la misma red privada virtual (VPC) del entorno cloud.
+
+Especificación Técnica	Appliance Virtual (openSUSE)	Servidor Corporativo (RHEL 7.x)
+Sistema Operativo Base	openSUSE Leap (Appliance preconfigurado).	Red Hat Enterprise Linux 7.x (Imagen cliente).
+Origen de Paquetes / Repo	Appliance OVA/VMDk desde URL PinSAFE.	Fichero /etc/yum.repos.d/obsidian.repo.
+Mecanismo de Autenticación	Credenciales de usuario PinSAFE oficial.	Repositorio RPM (gpgcheck=0, enabled=1).
+Footprint de Hardware Mínimo	2 vCPUs, 4 GB RAM.	2 vCPUs, 4 GB RAM.
+Escalado de Paralelización	Asignación incremental de vCPUs en Hipervisor.	Asignación de cores en servidor RHEL / VM.
+Comando / Script de Setup	Asistente de arranque automático en consola.	/opt/ozona/utils/bin/setupappliance
+
+Procedimiento de Despliegue en Appliances Virtuales GNU/Linux (openSUSE)
+
+1. Descargar el archivo de appliance virtual desde el repositorio oficial: http://rpm.obsidiansoft.com/appliance/, utilizando el usuario autenticado PinSAFE provisto por el distribuidor oficial.
+2. Importar e integrar la plantilla del appliance en la infraestructura de virtualización de la organización (VMware ESX/vSphere, Hyper-V o KVM).
+3. Iniciar la máquina virtual. El proceso de preparación del sistema operativo base se ejecuta de forma automatizada.
+4. En hypervisores VMware ESX, una vez completada la secuencia de inicialización del kernel, la consola TTY1 mostrará un texto en color verde con la dirección IP asignada por DHCP o por consola (por ejemplo: Please access http://192.168.0.107 in your web browser).
+
+Procedimiento de Instalación en Servidores RHEL 7.x (Red Hat Enterprise Linux)
+
+En infraestructuras corporativas sujetas a directivas estrictas de auditoría que requieran el despliegue sobre imágenes base homologadas de RHEL 7.x, el software se instala mediante paquetes RPM siguiendo la secuencia técnica especificada:
+
+1. Configurar la definición del repositorio corporativo creando el fichero /etc/yum.repos.d/obsidian.repo:
+
+[obsidian]
+name=obsidian
+baseurl=http://rpm.obsidiansoft.com/redhat
+enabled=1
+gpgcheck=0
+
+
+1. Ejecutar la actualización del gestor de paquetes e instalar la totalidad de los componentes de la plataforma:
+
+yum update -y
+yum install -y obsidian-base dashboard obsidian-console obsidian-calculate obsidian-extra obsidian-data2text
+
+
+1. Ejecutar el script oficial de aprovisionamiento del appliance para estructurar las bases de datos y servicios internos:
+
+/opt/ozona/utils/bin/setupappliance
+
+
+Una vez completado el aprovisionamiento de paquetes en el sistema operativo, es imprescindible ejecutar las configuraciones operativas de red, seguridad a nivel de kernel y parametrización web.
+
+2.2 Administración de Seguridad, Redes y Asistente Web de Setup
+
+El correcto funcionamiento y la estabilidad de la plataforma dependen directamente de la alineación entre las políticas del kernel Linux, la conectividad con los repositorios de actualización y la secuencia del asistente web inicial.
+
+* Incompatibilidad Crítica con SELinux en RHEL: El módulo de seguridad del kernel Linux SELinux (Security-Enhanced Linux), habilitado por defecto en distribuciones RHEL, impone restricciones de acceso a memoria y sockets que interfieren con la comunicación inter-proceso de los componentes de Obsidian. SELinux debe ser desactivado obligatoriamente en /etc/selinux/config (estableciendo SELINUX=disabled) y reiniciando el servidor. Omitir esta acción provocará el mal funcionamiento sistémico del producto.
+* Políticas de Red y Repositorios: El appliance de Obsidian Enterprise está diseñado para operar en aislamiento absoluto sin requerir conexión continua a Internet. Sin embargo, para garantizar la aplicación periódica de parches de seguridad, se recomienda habilitar el acceso saliente HTTP/HTTPS a los repositorios oficiales de openSUSE y al dominio http://rpm.obsidiansoft.com.
+* Asistente Web de Configuración (Setup Wizard): Al ingresar por primera vez desde un navegador a la IP expuesta por el appliance, la plataforma despliega el asistente interactivo de inicialización:
+  1. Selección de Idioma: Elección de la interfaz entre Español, Inglés, Portugués, Francés o Catalán.
+  2. Parámetros de Identificación: Asignación del Nombre del Cliente y especificación del Nombre Corto del sistema (limitado estrictamente a un máximo de 8 caracteres sin espacios).
+  3. Actualización Online de Paquetes: Si se detecta conectividad saliente a Internet, el asistente ofrecerá actualizar online los paquetes RPM de Obsidian seleccionando la opción "Ejecutar".
+  4. Carga de Datos de Demostración: Opción orientada a entornos de prueba de concepto (PoC) que puebla la base de datos con una topología de demostración y finaliza el asistente de inmediato.
+
+Finalizada la parametrización inicial del asistente web, debe configurarse el esquema de autenticación y la política de identidades del sistema.
+
+2.3 Gestión de Accesos y Autenticación del Appliance
+
+La capa de presentación visual de Obsidian Enterprise opera sobre un servidor web Apache HTTP Server, lo que permite aprovechar de forma nativa la arquitectura de módulos de Apache para integrarse con esquemas de autenticación corporativa unificada, tales como Directorio Activo (AD), servidores LDAP, o sistemas de autenticación multifactor (MFA) basados en el estándar PinSAFE.
+
+Para la administración del sistema operativo y los accesos iniciales de supervisión, el appliance dispone de los siguientes usuarios locales predeterminados:
+
+* obsidian: Usuario local predeterminado configurado con entorno visual en idioma Español.
+* obsidianEN: Usuario local predeterminado configurado con entorno visual en idioma Inglés.
+* obsidianPT: Usuario local predeterminado configurado con entorno visual en idioma Portugués.
+* root: Usuario administrador de superusuario del sistema operativo Linux underlying.
+
+Directiva de Seguridad Crítica: En cualquier despliegue donde el appliance esté expuesto a segmentos de red corporativa abierta o a Internet, se debe inhabilitar explícitamente el acceso directo mediante SSH para el usuario root en el archivo /etc/ssh/sshd_config (PermitRootLogin no), canalizando la administración remota a través de cuentas de usuario privilegiadas no estándar con escalado mediante sudo.
+
+Asegurada la infraestructura de backend y la capa de acceso, el sistema ofrece una base sólida sobre la cual desplegar las herramientas de visualización y modelado de conocimiento.
+
+3. Modelado Visual de Conocimiento e Interconexión de Información (PKM)
+
+3.1 Lienzo Visual (Canvas): Arquitectura, Formato y Creación de Tarjetas
+
+El complemento principal Canvas proporciona un espacio de trabajo bidimensional infinito diseñado para el cartografiado conceptual, diagramación de procesos y toma de notas visuales. Obsidian implementa esta funcionalidad mediante el estándar abierto JSON Canvas (jsoncanvas.org), almacenando los datos en archivos locales con extensión .canvas.
+
+Creación de un Fichero Canvas
+
+* Paleta de Comandos: Abrir la paleta (Ctrl+P / Cmd+P) y ejecutar Canvas: Create new canvas. El archivo se creará en el mismo directorio de la nota activa.
+* Explorador de Archivos: Clic derecho sobre cualquier carpeta objetivo en el panel lateral y seleccionar New canvas.
+* Barra Vertical (Ribbon): Clic directo sobre el icono Create new canvas ubicado en la barra de herramientas izquierda.
+
++-----------------------------------------------------------------------------------+
+|                                 CANVAS (2D SPACE)                                 |
+|                                                                                   |
+|  +[Tarjeta Texto]       +[Nota del Vault]      +[Medios]         +[Página Web]       |
+|  | Markdown puro  |     | Archivo .md      |   | PNG/PDF/Audio |   | URL Embebida  |   |
+|  +----------------+     +------------------+   +---------------+   +---------------+   |
+|                                                                                   |
+|  +[Bases / Carpetas / Grupos]                                                     |
+|  +-----------------------------------------------------------------------------+  |
+|  | [Grupo Contenedor]                                                          |  |
+|  |  +-----------------------+  +-----------------------+                       |  |
+|  |  | Tarjeta de Texto A    |  | Tarjeta de Texto B    |                       |  |
+|  |  +-----------------------+  +-----------------------+                       |  |
+|  +-----------------------------------------------------------------------------+  |
++-----------------------------------------------------------------------------------+
+
+
+Tipos de Tarjetas Integrables
+
+1. Tarjetas de Texto: Permiten la edición directa de contenido en Markdown dentro del lienzo. Se instancian haciendo doble clic en el lienzo o arrastrando el icono de archivo en blanco desde la barra inferior. Permite la conversión a una nota independiente mediante la opción del menú contextual Convert to file.... Nota de trazabilidad: Las tarjetas de solo texto que no han sido convertidas a archivos .md no generarán entradas en el panel de Backlinks.
+2. Tarjetas desde Notas del Vault: Incorporan notas existentes arrastrándolas desde el explorador de archivos, seleccionando Add note from vault en el menú contextual o mediante el icono de documento. Para limitar la visibilidad de la nota a una sección específica, se utiliza la función Narrow to heading... o Narrow to block....
+3. Tarjetas de Medios: Incorporan recursos multimedia (imágenes PNG/JPG, ficheros de audio o documentos PDF). Se integran arrastrando los archivos desde el sistema operativo o usando la opción Add media from vault.
+4. Tarjetas de Páginas Web: Permiten embeber sitios web externos navegables. Se crean mediante Add web page o arrastrando una URL desde el navegador. Presionar Ctrl (o Cmd en macOS) y hacer clic en la etiqueta de la tarjeta abre el enlace en el navegador predeterminado. El menú contextual incluye las opciones Copy URL, Change URL... y Reload page.
+5. Tarjetas desde Bases (Bases), Carpetas y Grupos:
+  * Bases: Al arrastrar un archivo de base de datos visual, la tarjeta despliega la vista predeterminada. Es posible fijar una vista específica mediante Pin view... o retornar a la vista base con Show default view.
+  * Carpetas: Arrastrar una carpeta completa desde el explorador de archivos despliega individualmente todas las notas contenidas en ella dentro del espacio del lienzo.
+  * Grupos de Tarjetas: Los grupos actúan como nodos contenedores visuales y estructurales que agrupan lógicamente conjuntos de tarjetas. Se crean haciendo clic derecho en el lienzo y seleccionando Create group, o seleccionando múltiples tarjetas y ejecutando la acción de agrupación. Los grupos permiten mover todas las tarjetas contenidas en bloque al desplazar la caja delimitadora.
+
+Para iniciar la edición de cualquier tarjeta de texto o nota incrustada, se realiza un doble clic sobre su superficie; la edición concluye pulsando la tecla Escape o haciendo clic fuera del elemento.
+
+3.2 Manipulación, Conexión, Organización y Exportación en Canvas (Desktop y Mobile)
+
+Conexión y Topología de Enlaces
+
+* Creación de Conexiones: Arrastrar desde los conectores circulares situados en los bordes de una tarjeta hacia los bordes de otra nodo. Soltar una línea en un espacio vacío abre un menú emergente para instanciar inmediatamente una nueva tarjeta conectada.
+* Etiquetado y Direccionalidad: Un doble clic sobre la línea conectora permite añadir texto descriptivo (Edit label / Remove label). El selector Line direction permite definir la semántica de la relación como Nondirectional (línea simple sin saetas), Unidirectional (flecha hacia el nodo destino) o Bidirectional (flechas en ambos extremos).
+* Navegación de Conexiones Distantes: Hacer clic derecho sobre una línea conectora y seleccionar Follow connection desplaza instantáneamente la vista del lienzo hacia el nodo situado en el extremo opuesto.
+
+Alineación, Agrupación y Estilos Visuales
+
+* Alineación Automática: Al seleccionar dos o más tarjetas (Shift + clic o arrastre de marco de selección), se habilita el menú Align con las opciones: Align left, center, right (alineación vertical); Align top, middle, bottom (alineación horizontal); Arrange in a row, column, grid (ordenación en cuadrícula); Distribute horizontal/vertical spacing (distribución equitativa); y Justify horizontally/vertically (igualación de dimensiones).
+* Fondos de Imagen en Grupos: Los grupos admiten la inserción de imágenes de fondo mediante Set background (con opciones de ajuste: Cover para estirar, Keep aspect ratio para mantener proporciones y Repeat para cubrir en mosaico).
+* Exportación a Imagen (Desktop): La paleta de comandos permite ejecutar Canvas: Export as image para generar un archivo PNG de alta resolución. Opciones configurables: Viewport (Full canvas vs Viewport only), Zoom (definición de resolución final), Show logo (marca de agua de Obsidian) y Privacy mode (difumina el texto de todas las tarjetas para generar esquemas arquitectónicos confidenciales).
+
+Operativa en Dispositivos Móviles (Touch UI)
+
+* Gestos: Desplazamiento con un dedo (Drag to pan), zoom con dos dedos (Pinch to zoom), y toque prolongado en el lienzo para desplegar el menú de creación.
+* Barra de Herramientas Táctil: Seleccionar una tarjeta despliega el menú superior móvil: Remove, Set color, Zoom to selection, Edit.
+* Edición: Doble toque sobre una tarjeta para desplegar el teclado táctil del sistema operativo.
+
+La maquetación bidimensional en Canvas se complementa con la trazabilidad contextual que aporta el análisis de retroenlaces en toda la bóveda.
+
+3.3 Gestión de Retroenlaces (Backlinks) e Interconexión de Contenido
+
+El complemento central Backlinks inspecciona la red de documentos para identificar todas las referencias entrantes hacia la nota activa, facilitando el descubrimiento de conexiones implícitas.
+
+       +--------------------------------------------------------+
+       |                      NOTA ACTIVA                       |
+       |                   "Isaac Newton"                       |
+       +--------------------------------------------------------+
+                                   ^
+                                   | (Backlink Directo)
+                                   |
+       +--------------------------------------------------------+
+       |                    NOTA ORIGEN                         |
+       | "Las [[Tres leyes del movimiento]] fueron creadas..." |
+       +--------------------------------------------------------+
+
+
+Menciones Enlazadas y No Enlazadas
+
+* Linked Mentions (Menciones Enlazadas): Muestra los retroenlaces procedentes de notas que incorporan un hipervínculo interno explícito hacia el documento actual (por ejemplo, si la nota "Tres leyes del movimiento" contiene la sintaxis [[Isaac Newton]], en la nota "Isaac Newton" se listará el enlace entrante).
+* Unlinked Mentions (Menciones No Enlazadas): Escanea automáticamente el texto de toda la bóveda para detectar apariciones literales del título de la nota activa que no han sido convertidas en enlaces explícitos. Excepción de seguridad: Los archivos que coincidan con los patrones definidos en la sección Excluded files de la configuración global de Obsidian serán omitidos en este escaneo.
+
+Controles de Despliegue y Modos de Visualización
+
+* Collapse Results / Show More Context: Permiten alternar entre mostrar solo los títulos o expandir el párrafo completo donde ocurre la mención.
+* Change Sort Order / Show Search Filter: Permite ordenar los resultados por fecha o nombre, e introducir patrones de filtrado de texto.
+* Modos de Visualización: Los retroenlaces pueden inspeccionarse en la pestaña dedicada del panel derecho, abrirse en una pestaña fija mediante el comando Backlinks: Open backlinks for the current note (la cual se mantiene vinculada al documento activo desplegando un icono de enlace), o embeberse directamente en la parte inferior del documento ejecutando Backlinks: Toggle backlinks in document.
+
+Esta estructura relacional se nutre continuamente del flujo de trabajo diario de captura de datos.
+
+3.4 Captura Diaria (Daily Notes) y Captura Web (Web Clipper)
+
+El flujo de captura de información en Obsidian sigue el ciclo operativo de planificar, capturar y revisar datos.
+
+* Web Clipper: Extensión oficial para navegadores web que permite seleccionar y resaltar fragmentos de páginas web externas, extrayendo el contenido formateado directamente hacia la bóveda local.
+* Daily Notes: Complemento principal que centraliza el diario operativo. Regla de Ejecución de Kernel: Cambiar la fecha en el calendario del sistema operativo nunca genera automáticamente el archivo .md del día. La instanciación de la nota diaria requiere la ejecución explícita del comando nativo del plugin desde la paleta de comandos o la barra lateral, el cual procesará e instanciará la plantilla asignada (por ejemplo, el modelo de registro Daily Log template).
+
+Una vez recopilada e interconectada la información en notas localmente, es posible aplicar motores de modelado analítico para transformar las notas en bases de datos dinámicas y modelos orientados a servicios.
+
+4. Modelado Avanzado de Datos y Automatización en Obsidian
+
+4.1 Modelado de Servicios de Infraestructura en Obsidian Enterprise 2.2
+
+En entornos corporativos, Obsidian Enterprise 2.2 abstrae la complejidad de los componentes de TI mapeando los elementos físicos y virtuales hacia un modelo de servicios alineado con ITIL.
+
+Jerarquía y Agregación de Nodos del Modelo
+
+El motor de cálculo de Obsidian Enterprise evalúa los estados operacionales agregando métricas desde los niveles más bajos de la infraestructura hacia los procesos de negocio de alto nivel:
+
+                  +-----------------------------------+
+                  |        PROCESO DE NEGOCIO         |
+                  |     (Venta Online / Facturación)  |
+                  +-----------------------------------+
+                                    ^
+                                    | (Reglas de Impacto / Agregación)
+                  +-----------------------------------+
+                  |            SERVICIO TI            |
+                  |       (Portal Web e-Commerce)     |
+                  +-----------------------------------+
+                                    ^
+                                    | (Dependencias de Servicio)
+                  +-----------------------------------+
+                  |          SUBSERVICIO TI           |
+                  |     (Pasarela de Pago / Auth)     |
+                  +-----------------------------------+
+                                    ^
+                                    | (Métricas de Monitores)
+       +----------------------------+----------------------------+
+       |                                                         |
++---------------+                                       +----------------+
+|   SERVIDOR    |                                       | BASE DE DATOS  |
+| (Linux RHEL)  |                                       | (Cluster DB)   |
++---------------+                                       +----------------+
+
+
+* Tipos de Nodos Principales:
+  1. Elemento de Infraestructura
+  2. Servicio TI
+  3. Proceso de Negocio Capacidad Analítica: Estos tres tipos primarios tienen la capacidad exclusiva de calcular y mostrar indicadores agregados, aplicando reglas de impacto a partir de los monitores asociados a los demás tipos de nodos o de sus propios monitores.
+* Subtipos de Nodos Estándar: Elemento genérico de infraestructura, Dispositivo, Clúster, Servidor, Aplicación, Servicio TI, Subservicio TI, Proceso de negocio, Base de datos.
+* Clasificación de Dependencias: Dependencia, Dependencia sin impacto, Dependencia mayor, Dependencia menor.
+
+Criterios Obligatorios de Modelado
+
+1. Regla de Existencia: Todo nodo no-monitor definido en la topología del servicio debe existir de forma explícita en el diagrama del servicio.
+2. Abstracción de Jerarquías Servidor-Aplicación: El modelo no debe reflejar como relaciones "padre-hijo" las dependencias directas entre las aplicaciones y los servidores físicos o virtuales que las albergan, ya que dicha jerarquía no es relevante para el algoritmo de cálculo analítico del motor de servicios.
+
+La precisión del árbol de dependencias garantiza que las métricas capturadas por los monitores evalúen correctamente el nivel de servicio.
+
+4.2 Configuración de Monitores, Umbrales y Gestión de Estados
+
+Los monitores integrados en Obsidian Enterprise reciben streams de eventos y métricas de sondas externas (Nagios, Zabbix, Prometheus, etc.), evaluando la salud operativa según umbrales cuantitativos.
+
+Atributos y Rangos de Umbrales
+
+Los parámetros de configuración de un monitor establecen los límites operacionales dentro de la siguiente escala:
+
+[Min] ------------- [Warning] ------------- [OK] ------------- [Max]
+   Área Crítica             Área Warning             Área Óptima
+
+
+* Max: Valor máximo esperado que puede registrar el monitor.
+* Min: Valor mínimo esperado del monitor.
+* Warning: Valor umbral a partir del cual el monitor entra en estado de advertencia (los valores por debajo de este punto caen en zona crítica).
+* OK: Valor umbral a partir del cual el monitor entra en el área operacional óptima.
+* Positive: Atributo booleano de polaridad. Cuando Positive se establece como verdadero (Positive:: true), se indica que a mayor valor registrado, mejor es la salud del servicio (por ejemplo, ancho de banda disponible o memoria libre). Por el contrario, cuando Positive es falso (Positive:: false), valores más bajos representan óptima salud (por ejemplo, latencia de red, uso de CPU o número de errores).
+
+Bloqueo Operacional Temporal de Monitores
+
+Durante ventanas de mantenimiento programado, intervenciones técnicas en infraestructura o fallos temporales de conectividad con la sonda de monitorización, es necesario ejecutar un bloqueo operacional temporal del monitor para prevenir la contaminación de las métricas históricas de SLA.
+
+* Procedimiento de Bloqueo: Hacer doble clic sobre el icono del monitor en la interfaz de modelado. El monitor pasa a estado deshabilitado/bloqueado, omitiendo sus valores en los algoritmos de cálculo de nivel de servicio.
+* Reactivación: Hacer nuevamente doble clic sobre el icono para restablecer la ingesta normal de datos del monitor.
+
+Mientras que en la plataforma Enterprise las métricas son procesadas por el motor analítico paralelo, en el entorno PKM el procesamiento de datos se realiza dinámicamente mediante el complemento Dataview.
+
+4.3 Consultas de Datos con el Complemento Dataview: Metadatos y Lenguaje DQL
+
+El complemento Dataview transforma la bóveda local de archivos Markdown en una base de datos dinámica. Esta arquitectura establece una analogía directa con el motor analítico de Obsidian Enterprise: mientras que la versión corporativa agrega eventos de infraestructura para calcular SLAs, Dataview indexa metadatos atómicos en notas locales para generar vistas consolidadas.
+
+Dataview extrae metadatos a partir de dos estructuras estándar:
+
+1. YAML Frontmatter: Bloque estructurado ubicado obligatoriamente al inicio del archivo .md, delimitado por ---:
+
+---
+alias: "documento-tecnico"
+last-reviewed: 2021-08-17
+thoughts:
+  rating: 8
+  reviewable: false
+---
+
+
+1. Campos Inline (Inline Fields): Metadatos insertados en cualquier lugar del cuerpo del texto mediante la sintaxis Clave:: Valor o enmascarados entre corchetes [clave:: valor]:
+
+Basic Field:: Value
+**Bold Field**:: Nice!
+Puedes escribir [field:: campos inline]; varios [field2:: en la misma línea].
+Si deseas ocultar la clave: (field3:: valor).
+
+
+Consultas mediante Dataview Query Language (DQL)
+
+DQL es un lenguaje de consultas estructurado en tuberías (pipeline) orientado a la extracción de metadatos.
+
+Consulta en Tabla (TABLE) - Videojuegos ordenados por valoración
+
+table time-played, length, rating
+from "games"
+sort rating desc
+
+
+Consulta en Tabla (TABLE) - Libros con etiquetado y filtrado
+
+TABLE file.name AS "File", rating AS "Rating" FROM #book
+
+
+Consulta en Lista (LIST) - Filtrado por operadores lógicos
+
+list from #game/moba or #game/crpg
+
+
+Consulta en Tareas (TASK) - Extracción de tareas pendientes en proyectos activos
+
+task from #projects/active
+
+
+Para requerimientos analíticos de alta complejidad que superan las capacidades sintácticas de DQL, Dataview permite la ejecución de lógica programática mediante JavaScript.
+
+4.4 Programación Avanzada con DataviewJS, Expresiones Inline y Seguridad
+
+Expresiones Inline Dinámicas
+
+* DQL Inline: = this.file.name (Imprime el nombre del fichero en la vista previa).
+* JS Inline: $= dv.current().file.mtime (Evalúa y muestra la fecha de modificación mediante JavaScript).
+
+Consultas Avanzadas mediante la API DataviewJS
+
+El entorno dataviewjs expone el objeto global dv, otorgando acceso procedimental completo al índice de la bóveda.
+
+Agrupamiento Complejo de Libros por Género
+
+for (let group of dv.pages("#book").where(p => p["time-read"].year == 2021).groupBy(p => p.genre)) {
+    dv.header(3, group.key);
+    dv.table(["Name", "Time Read", "Rating"],
+        group.rows
+            .sort(k => k.rating, 'desc')
+            .map(k => [k.file.link, k["time-read"], k.rating]))
+}
+
+
+Renderizado de Lista Global de Tareas Pendientes
+
+dv.taskList(dv.pages().file.tasks.where(t => !t.completed));
+
+
+Auditoría Crítica de Seguridad en Entornos JS
+
+Existe una diferencia fundamental entre el modelo de aislamiento de DQL y DataviewJS:
+
+* Consultas DQL Regulares: Operan dentro de un entorno estricto de pruebas aislado (sandboxed). Solo pueden realizar operaciones de lectura sobre los metadatos y no tienen capacidad para modificar el sistema de archivos ni realizar peticiones de red.
+* Consultas DataviewJS: Se ejecutan sin aislamiento (un-sandboxed), heredando la totalidad de los privilegios del proceso de Obsidian y del API de Node.js en el sistema operativo. Esto implica que un script JS ejecutado a través de DataviewJS tiene acceso de lectura, creación, modificación y borrado sobre cualquier archivo del disco duro local, así como la capacidad de ejecutar llamadas de red arbitrarias (fetch/HTTP requests). Se exige auditar cualquier código JS proveniente de fuentes no verificadas antes de permitir su renderizado en la bóveda.
+
+La gestión avanzada de datos locales se complementa con la suite de servicios de sincronización y publicación corporativa.
+
+5. Servicios Complementarios, Extensibilidad e Informes
+
+5.1 Servicios Complementarios Corporativos: Obsidian Sync y Obsidian Publish
+
+Obsidian ofrece servicios en la nube diseñados para extender la disponibilidad de la información y facilitar la colaboración técnica.
+
+* Obsidian Sync: Servicio de replicación continua de datos que implementa cifrado de extremo a extremo (end-to-end encryption - E2EE). Garantiza la sincronización segura de bóvedas de notas entre múltiples sistemas operativos (Windows, macOS, Linux, iOS, Android), manteniendo la consistencia de archivos, configuraciones y complementos.
+* Obsidian Publish: Plataforma SaaS que permite publicar notas locales de la bóveda directamente en la web en formato wiki, documentación técnica corporativa, base de conocimiento accesible o jardín digital interactivo, manteniendo el control de acceso y la maquetación.
+
+La adaptabilidad del entorno se refuerza mediante su arquitectura modular de extensibilidad.
+
+5.2 Arquitectura de Extensibilidad: Complementos, Temas, CSS y CLI
+
+Obsidian adopta una arquitectura desacoplada donde el núcleo de la aplicación procesa la información base, mientras que la funcionalidad y la estética son ampliables mediante capas de extensión:
+
++------------------------------------------------------------------+
+|                          OBSIDIAN CORE                           |
++------------------------------------------------------------------+
+        |                  |                 |             |
+        v                  v                 v             v
+ [Core Plugins]   [Community Plugins]     [Estética]   [Interfaces]
+  Canvas           Dataview                Temas        Web Clipper
+  Backlinks        ...                     CSS Snippets Obsidian CLI
+  Daily Notes
+
+
+* Complementos Principales (Core Plugins): Funcionalidades nativas desarrolladas por el equipo oficial de Obsidian (Canvas, Backlinks, Daily Notes) que pueden activarse o desactivarse modularmente según las necesidades operativas.
+* Complementos de la Comunidad (Community Plugins): Extensiones desarrolladas por terceros que amplían las capacidades del sistema (como el motor analítico Dataview).
+* Personalización Estética: Ajuste visual mediante Temas comunitarios y modificación de la interfaz mediante Fragmentos CSS (CSS snippets).
+* Interfaces de Extensión Avanzadas: Control del sistema desde la terminal de comandos mediante Obsidian CLI para la automatización de tareas de mantenimiento, e ingesta desde navegadores web mediante la extensión Web Clipper.
+
+En el ámbito de las organizaciones que operan la versión Enterprise 2.2, toda esta captura de métricas se consolida en informes estadísticos ejecutivos.
+
+5.3 Generación e Interpretación de Informes Estadísticos en Obsidian Enterprise 2.2
+
+Obsidian Enterprise 2.2 incluye un motor automatizado de generación de informes consolidados de servicio, diseñado para traducir métricas operativas de TI en documentos ejecutivos maquetados para la alta dirección.
+
+Componentes de los Informes Estadísticos
+
+* Visualizaciones Gráficas: Gráficas de evolución diaria y mensual de disponibilidad y rendimiento.
+* Tablas Analíticas: Consolidación mensual y anual de porcentajes de cumplimiento de SLAs, tiempos de parada (downtime) y capacidad de infraestructura.
+* Motor de Generación de Lenguaje Natural (obsidian-data2text): Módulo avanzado que analiza automáticamente las métricas cuantitativas e interpreta las tendencias, redactando resúmenes ejecutivos en texto fluido. Este módulo actúa de forma conceptualmente idéntica a la síntesis de redes de conocimiento en el entorno PKM, convirtiendo datos crudos de monitorización en conclusiones estratégicas comprensibles por C-Level (CIO, CTO).
+* Páginas Estáticas y Códigos de Sustitución: Inserción de páginas parametrizables (portadas, marcos regulatorios) mediante variables dinámicas y códigos de sustitución.
+
+Procedimiento de Definición de Nuevos Informes
+
+Para maquetar e instanciar un nuevo informe estadístico en el appliance corporativo, el administrador debe parametrizar:
+
+1. Selección de Plantilla: Elección de la maquetación visual e institucional de portada y cierre.
+2. Nivel del Informe: Configuración del alcance analítico, especificando si la agregación se ejecutará A nivel de servicios (visión ejecutiva consolidada) o A nivel de métricas (detalle técnico de sondas).
+3. Delimitación de Páginas (Slides): Especificación del número exacto de páginas/diapositivas estáticas que el motor debe ignorar al inicio (cabecera) y al final del informe para no sobreescribir la información corporativa estática.
+4. Catálogo de Servicios Incluidos: Definición del conjunto específico de servicios de infraestructura y procesos de negocio que serán procesados por el motor para la generación del informe.
+
+Conclusión Integral del Ecosistema
+
+Obsidian 2.2 consolida en una arquitectura única el ciclo completo de la gestión de la información organizativa: desde la estructuración de notas atómicas, la cartografía bidimensional en lienzos y las consultas locales en Markdown, hasta el modelado de servicios de TI, la paralelización del cálculo de SLAs corporativos y la traducción automatizada de métricas de infraestructura en informes ejecutivos de alto nivel.

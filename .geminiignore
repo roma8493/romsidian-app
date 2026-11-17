@@ -1,0 +1,22 @@
+# Exclusiones de contexto para agentes (Ahorro de tokens)
+node_modules/
+target/
+.git/
+dist/
+build/
+FUENTES/
+*.lock
+pnpm-lock.yaml
+package-lock.json
+Cargo.lock
+*.pdf
+*.xlsx
+*.xlsm
+*.xls
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.exe
+*.mp4
+.env*

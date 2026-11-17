@@ -1,0 +1,25 @@
+[package]
+name = "romsidian-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Aplicación de escritorio Tauri 2 para ROMSIDIAN"
+
+[lib]
+name = "romsidian_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]
+
+[dependencies]
+romsidian-core.workspace = true
+romsidian-sync.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tauri = { version = "2", features = [] }
+ureq = { version = "2.10", default-features = false, features = ["tls", "json"] }
