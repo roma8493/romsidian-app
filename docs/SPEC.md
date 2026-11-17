@@ -243,6 +243,6 @@
   - **Criterios de aceptación**:
     1. En `VaultSwitcherModal.svelte` y `SyncModal.svelte`, cuando corre en navegador web, mostrar aviso claro de **Modo Web (`sessionStorage` — los datos y el token se borran al cerrar la pestaña)**, opción para listar los repositorios de GitHub del usuario ingresando su `PAT` para conectar una bóveda en 1 clic, y botón **"🔒 Cerrar sesión web (borrar todo)"**.
     2. Configurar `apps/desktop/vite.config.ts` con `base: './'` para que el bundle estático (`apps/desktop/dist`) funcione tanto dentro de Tauri (Windows/Android) como servido desde cualquier subruta de GitHub Pages (`https://<usuario>.github.io/<repo>/`).
-    3. Crear el workflow `.github/workflows/deploy-web.yml` para publicar automáticamente la versión Web en **GitHub Pages** al hacer push, además de un script `npm --prefix apps/desktop run build:web`.
+    3. Crear el workflow `.github/workflows/deploy-web.yml` para publicar automáticamente la versión Web en **GitHub Pages** al hacer push a [roma8493/romsidian-app](https://github.com/roma8493/romsidian-app) (`https://roma8493.github.io/romsidian-app/`), además de un script `npm --prefix apps/desktop run build:web`.
   - *Verificación*: `npm --prefix apps/desktop run build`, prueba de bundle estático y `$env:CARGO_BUILD_JOBS=2; cargo test --workspace` (garantizando que Desktop y Android siguen intactos).
 

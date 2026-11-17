@@ -11,6 +11,9 @@
   - **UX Web y Despliegue Estático ([VaultSwitcherModal.svelte](file:///c:/Users/Roma/Downloads/ROMSIDIAN/apps/desktop/src/lib/components/VaultSwitcherModal.svelte), [SyncModal.svelte](file:///c:/Users/Roma/Downloads/ROMSIDIAN/apps/desktop/src/lib/components/SyncModal.svelte), [vite.config.ts](file:///c:/Users/Roma/Downloads/ROMSIDIAN/apps/desktop/vite.config.ts), [deploy-web.yml](file:///c:/Users/Roma/Downloads/ROMSIDIAN/.github/workflows/deploy-web.yml))**:
     - En `VaultSwitcherModal.svelte` y `SyncModal.svelte`, en modo Web se muestra el banner de seguridad `sessionStorage`, el conector **"☁️ Conectar repositorio de GitHub (1 clic)"** (pegar PAT -> listar repositorios privados/públicos -> abrir y sincronizar bóveda) y el botón **"🔒 Cerrar sesión web"**.
     - Configurado `base: './'` en `apps/desktop/vite.config.ts`, script `npm --prefix apps/desktop run build:web` (`apps/desktop/dist`) y workflow `.github/workflows/deploy-web.yml` para despliegue automático en GitHub Pages.
+    - **Repositorio de Código de la App**: [github.com/roma8493/romsidian-app](https://github.com/roma8493/romsidian-app).
+    - **URL Pública GitHub Pages**: `https://roma8493.github.io/romsidian-app/`.
+    - **Bóveda de Notas Remota**: [github.com/roma8493/repoROMSIDIANMOBILE](https://github.com/roma8493/repoROMSIDIANMOBILE).
   - **Verificación**:
     - `npx --prefix apps/desktop tsc -p apps/desktop/tsconfig.json --noEmit` (código `0`).
     - `npm --prefix apps/desktop run build:web` (`168 modules transformed`, bundle estático listo en `apps/desktop/dist`).
@@ -210,3 +213,5 @@
 - [x] Fase 4 — Tarea 22: Servidor MCP Nativo (`crates/mcp-server` / `romsidian-mcp`) para Claude Desktop, Claude Code y Antigravity.
 - [x] Fase 4 — Tarea 23: Puente de Proveedores IA en Backend (`LocalCliProvider`, `GeminiHttpProvider`, `DeterministicRustProvider`) y Comandos IPC v0.5.
 - [x] Fase 4 — Tarea 24: Panel Copiloto PKM en UI (`AiCopilotPanel.svelte`), Auto-Conexión en Lote (Vista Previa / Automático) y Cierre v0.5.
+- [x] Iteración v0.6 — Tarea 25: Motor Web Multi-Bóveda en `sessionStorage` y Sincronización Real con GitHub REST API (`webGithubSync.ts` + `api.ts`).
+- [x] Iteración v0.6 — Tarea 26: UX Web (Conector GitHub 1 clic + Cerrar Sesión) y Despliegue en GitHub Pages ([roma8493/romsidian-app](https://github.com/roma8493/romsidian-app)).
